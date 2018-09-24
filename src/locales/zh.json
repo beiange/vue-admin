@@ -1,3 +1,7 @@
 {
+  "login": {
+    "password": "",
+    "username": ""
+  },
   "message": "hello i18n !!"
 }

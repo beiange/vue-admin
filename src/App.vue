@@ -11,13 +11,27 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style  lang="scss">
+  body {
+    height: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    margin: 0px;
+  }
+  html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  #app{
+    height: 100%;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
 </style>
