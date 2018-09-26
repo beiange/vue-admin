@@ -11,7 +11,7 @@ export default {
 }
 </script>
 
-<style  lang="scss">
+<style  >
   body {
     height: 100%;
     -moz-osx-font-smoothing: grayscale;
